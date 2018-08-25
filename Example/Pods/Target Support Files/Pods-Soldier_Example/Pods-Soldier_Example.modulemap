@@ -1,0 +1,6 @@
+framework module Pods_Soldier_Example {
+  umbrella header "Pods-Soldier_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

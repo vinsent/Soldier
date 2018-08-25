@@ -1,0 +1,6 @@
+framework module Soldier {
+  umbrella header "Soldier-umbrella.h"
+
+  export *
+  module * { export * }
+}

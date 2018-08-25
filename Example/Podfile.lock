@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Soldier (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - Soldier (from `../`)
+
+EXTERNAL SOURCES:
+  Soldier:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Soldier: 0089ad796151442ebe8bf70361809af4de81d518
+
+PODFILE CHECKSUM: 6e097cd8ceba67963a4814f0d26af6601cb0e9ee
+
+COCOAPODS: 1.4.0
