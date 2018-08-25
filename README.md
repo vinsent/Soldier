@@ -22,7 +22,7 @@ pod 'Soldier'
 
 ## Author
 
-rain-star, vintrs@163.com
+vinsent, vintrs@163.com
 
 ## License
 
