@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of Soldier.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/rain-star/Soldier",
+  "homepage": "https://github.com/vinsent/Soldier",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "rain-star": "vintrs@163.com"
+    "vinsent": "vintrs@163.com"
   },
   "source": {
-    "git": "https://github.com/rain-star/Soldier.git",
+    "git": "https://github.com/vinsent/Soldier.git",
     "tag": "0.1.0"
   },
   "platforms": {
