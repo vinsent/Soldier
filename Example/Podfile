@@ -1,11 +1,15 @@
-use_frameworks!
+platform :ios, '8.0'
 
 target 'Soldier_Example' do
-  pod 'Soldier', :path => '../'
-
-  target 'Soldier_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
-  end
+    use_frameworks!
+    inhibit_all_warnings!
+    
+    pod 'Soldier', :path => '../'
+    
+    target 'Soldier_Tests' do
+        inherit! :search_paths
+        
+        pod 'FBSnapshotTestCase' , '~> 2.1.4'
+        
+    end
 end
