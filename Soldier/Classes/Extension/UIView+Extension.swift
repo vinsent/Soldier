@@ -12,4 +12,23 @@ public extension UIView {
         backgroundColor = color
         layer.cornerRadius = radius
     }
+    
+}
+
+private class TapGestureRecognizer: UITapGestureRecognizer {
+    public var tapCallback: (() -> Void)?
+}
+
+extension UIView {
+    
+    @objc public func whenTapped(callback: @escaping (() -> Void)) {
+        let tap = TapGestureRecognizer(target: self, action: #selector(tapped(_:)))
+        tap.tapCallback = callback
+        isUserInteractionEnabled = true
+        addGestureRecognizer(tap)
+    }
+    
+    @objc private func tapped(_ tap: TapGestureRecognizer) {
+        tap.tapCallback?()
+    }
 }
