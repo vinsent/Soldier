@@ -8,10 +8,10 @@
 
 public extension UIButton {
     
-    convenience init(title: String = "", titleFont fontValue: CGFloat, titleColor: UIColor = .darkText, backgroundColor: UIColor = .white, backgroundImage: UIImage? = nil, corner radius: CGFloat = 0) {
+    convenience init(title: String = "", font titleFont: CGFloat, titleColor: UIColor = .darkText, backgroundColor: UIColor = .white, backgroundImage: UIImage? = nil, corner radius: CGFloat = 0) {
         self.init()
         setTitle(title, for: .normal)
-        titleLabel?.font = UIFont.systemFont(ofSize: fontValue)
+        titleLabel?.font = UIFont.systemFont(ofSize: titleFont)
         setTitleColor(titleColor, for: .normal)
         self.backgroundColor = backgroundColor
         setBackgroundImage(backgroundImage, for: .normal)

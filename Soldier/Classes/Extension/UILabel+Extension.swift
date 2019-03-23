@@ -7,10 +7,10 @@
 
 public extension UILabel {
     
-    convenience init(title: String = "", titleFont fontValue: CGFloat, titleColor: UIColor = .darkText, alignment: NSTextAlignment = .left, backgroundColor: UIColor = .white, corner radius: CGFloat = 0, numberOfLines: Int = 1) {
+    convenience init(title: String = "", font titleFont: CGFloat, color titleColor: UIColor = .darkText, alignment: NSTextAlignment = .left, backgroundColor: UIColor = .white, corner radius: CGFloat = 0, numberOfLines: Int = 1) {
         self.init()
         text = title
-        font = UIFont.systemFont(ofSize: fontValue)
+        font = UIFont.systemFont(ofSize: titleFont)
         textColor = titleColor
         textAlignment = alignment
         self.backgroundColor = backgroundColor
