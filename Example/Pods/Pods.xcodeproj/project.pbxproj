@@ -39,6 +39,8 @@
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D097F3914F8E2EA14FB7C88FA3099F26 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D7928815224BCB3700EB9924 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7928814224BCB3700EB9924 /* UIViewController+Extension.swift */; };
+		D7928817224BCC5B00EB9924 /* UIControl+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7928816224BCC5B00EB9924 /* UIControl+Extension.swift */; };
 		D9B0A9ED904B881E471B67FEBC3283D4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E69D3839C801123B109B666D087ED2 /* UIColor+Extension.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DC657B5369A5CDB47A90AC335B0CC756 /* Soldier-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD93517B1854034F7598C3179C6C982 /* Soldier-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEF169F19362CE5D5828E65D46CC417A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
@@ -121,6 +123,8 @@
 		CAEABED1306409FF1759F33234D097A9 /* UIButton+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		D1273A4012B1AB05CAFE159BF9F9DEB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6CB30D48FF48BF734695E3C4990F539 /* Pods-Soldier_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Soldier_Example.modulemap"; sourceTree = "<group>"; };
+		D7928814224BCB3700EB9924 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		D7928816224BCC5B00EB9924 /* UIControl+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Extension.swift"; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DD5B99C3AE987E8717C50089C54C0371 /* Pods-Soldier_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Soldier_Example-resources.sh"; sourceTree = "<group>"; };
 		DE7D42F03597B5627004E9F37A123B25 /* Pods-Soldier_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Soldier_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -341,6 +345,8 @@
 				3196800DE766F1128F14605BAC561EFF /* UIImage+Extension.swift */,
 				32BEFEC90ECF882406A8B63CC96BB0DC /* UILabel+Extension.swift */,
 				DF24315555F2DEDBCF552EFA9F987471 /* UIView+Extension.swift */,
+				D7928814224BCB3700EB9924 /* UIViewController+Extension.swift */,
+				D7928816224BCC5B00EB9924 /* UIControl+Extension.swift */,
 			);
 			name = Extension;
 			path = Soldier/Classes/Extension;
@@ -518,6 +524,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -550,10 +557,12 @@
 				899EF2BFDA688D8E66F485FBDE3D2620 /* Pixel.swift in Sources */,
 				A60BC2AEC76C0B63143785F2C2330D0C /* Soldier-dummy.m in Sources */,
 				1D0C5A1D6C2888D043557A286774147C /* Then.swift in Sources */,
+				D7928817224BCC5B00EB9924 /* UIControl+Extension.swift in Sources */,
 				BACD3D32FDD6467BEA518A35893DFF20 /* UIButton+Extension.swift in Sources */,
 				D9B0A9ED904B881E471B67FEBC3283D4 /* UIColor+Extension.swift in Sources */,
 				EA6F80EDB40A55B3F127BC9D65388A2E /* UIImage+Extension.swift in Sources */,
 				6A197149232C80763A46F3C73124D4E7 /* UILabel+Extension.swift in Sources */,
+				D7928815224BCB3700EB9924 /* UIViewController+Extension.swift in Sources */,
 				4B89A43A9343C05566C77391D8D0ABD3 /* UIView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
