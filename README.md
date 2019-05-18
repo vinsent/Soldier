@@ -1,6 +1,6 @@
 # Soldier
 
-[![CI Status](https://img.shields.io/travis/rain-star/Soldier.svg?style=flat)](https://travis-ci.org/rain-star/Soldier)
+[![CI Status](https://img.shields.io/travis/vinsent/Soldier.svg?style=flat)](https://travis-ci.org/vinsent/Soldier)
 [![Version](https://img.shields.io/cocoapods/v/Soldier.svg?style=flat)](https://cocoapods.org/pods/Soldier)
 [![License](https://img.shields.io/cocoapods/l/Soldier.svg?style=flat)](https://cocoapods.org/pods/Soldier)
 [![Platform](https://img.shields.io/cocoapods/p/Soldier.svg?style=flat)](https://cocoapods.org/pods/Soldier)
